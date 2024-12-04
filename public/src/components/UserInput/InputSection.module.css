@@ -1,0 +1,67 @@
+.input {
+  width: 100%;
+  height: 60px;
+  padding: 1rem 6.5rem 1rem 3.2rem;
+  border-radius: 6px;
+  border: 1.2px solid #0000001a;
+  background-color: var(--input-background);
+  color: var(--input-text-color);
+  box-shadow: var(--input-box-shadow);
+  font-size: 1.05rem;
+}
+
+.invalid {
+  border: 1.4px solid #b725f7;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: var(--input-placeholder-text-color);
+}
+
+.btn {
+  font-size: 1rem;
+  position: absolute;
+  height: 50px;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  border: 0px;
+  border-radius: 5px;
+  background-color: var(--input-button-background-color);
+  color: rgb(235, 235, 235);
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--input-button-hover-background-color);
+}
+
+.url-icon {
+  position: absolute;
+  top: 10px;
+  left: 6px;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 530px) {
+  .input:focus {
+    outline: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .input {
+    padding: 0.8rem 100px 0.8rem 3.2rem;
+  }
+  .btn {
+    padding: 0.6rem 0.8rem;
+    right: 5px;
+    top: 4px;
+  }
+}

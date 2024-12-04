@@ -1,0 +1,130 @@
+.result-div {
+  width: 100%;
+  border: var(--result-border);
+  border-radius: 12px;
+  background-color: var(--result-background-color);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: var(--result-box-shadow);
+}
+
+.thumb-div {
+  border: var(--result-border);
+  width: 190px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.thumb-div img {
+  width: 180px;
+  height: 160px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+.result-div h3 {
+  margin: 1rem 0rem;
+  color: var(--result-title-font-color);
+}
+
+.download-section table {
+  background-color: var(--result-table-bg-color);
+  border: var(--result-border);
+  width: 100%;
+  color: var(--result-table-font-color);
+  border-radius: 5px;
+}
+
+.download-section th {
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
+.download-section td {
+  padding: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.download-section a {
+  padding: 0.5rem 1rem;
+  background-color: #c50052d7;
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-section a:hover {
+  background-color: #a10144;
+}
+
+@media (max-width: 560px) {
+  .download-section th {
+    padding-top: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .download-section td {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+  .download-section a {
+    background-color: #6f14d6;
+    color: rgb(226, 226, 226);
+  }
+
+  .download-section a:hover {
+    background-color: #5500c5a6;
+  }
+}
+
+@media (max-width: 425px) {
+  .result-div h3 {
+    font-size: 0.9rem;
+  }
+
+  .download-section a {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  .thumb-div {
+    width: 170px;
+    height: 170px;
+  }
+
+  .thumb-div img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 375px) {
+  .download-section th {
+    padding-top: 0.9rem;
+  }
+
+  .download-section td {
+    padding: 0.9rem;
+  }
+  .download-section a {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.7rem;
+  }
+
+  .result-div {
+    padding: 1rem 0.4rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 299px) {
+  .result-div {
+    overflow: auto;
+  }
+}
