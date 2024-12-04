@@ -2,9 +2,7 @@
 
 **MIHIR** is a powerful web application designed to effortlessly download publicly accessible videos from popular social media platforms such as Twitter, YouTube, Facebook, and Instagram. It features a robust backend built in Node.js and a responsive frontend developed with React.js, ensuring a seamless and user-friendly experience.
 
-![demo image]
-![Screenshot 2024-12-04 164944](https://github.com/user-attachments/assets/ae63fc84-5857-405d-b16e-4c884ed9ea24)
-
+![demo image](https://github.com/shuvra-matrix/images/blob/main/Screenshot%202024-02-09%20212655.png?raw=true)
 
 ## Live Demo
 
@@ -25,7 +23,7 @@ To set up the application locally, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/shuvra-matrix/SOCIAL-MEDIA-VIDEO-DOWNLOAD---MERN.git
+git clone https://github.com/mihirkasodariya/SocialMediaDownloader-MERN.git
 ```
 
 ### Install Server Dependencies
