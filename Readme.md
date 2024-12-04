@@ -2,7 +2,8 @@
 
 **MIHIR** is a powerful web application designed to effortlessly download publicly accessible videos from popular social media platforms such as Twitter, YouTube, Facebook, and Instagram. It features a robust backend built in Node.js and a responsive frontend developed with React.js, ensuring a seamless and user-friendly experience.
 
-![demo image](https://github.com/shuvra-matrix/images/blob/main/Screenshot%202024-02-09%20212655.png?raw=true)
+![demo image]![Screenshot 2024-12-04 165855](https://github.com/user-attachments/assets/7a0b90e4-427e-4ed3-bf50-6bffe20818dc)
+
 
 ## Live Demo
 
